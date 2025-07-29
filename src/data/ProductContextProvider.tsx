@@ -18,7 +18,6 @@ export function ProductContextProvider({
       try {
         const response = await axios.get(`${API_ENDPOINT}/api/fruits`);
         const data: ProductData[] = response.data;
-        console.log(data)
         setProducts(data);
       } catch {
         setError("Error while fetching products.");

@@ -1,4 +1,3 @@
-const API_ENDPOINT =
-  "https://24397e5d-6b03-426c-a9e1-06874dbaf04d.mock.pstmn.io/";
+const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT;
 
 export default API_ENDPOINT;
