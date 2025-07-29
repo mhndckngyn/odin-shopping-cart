@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "Playwrite Australia QLD";
+  src: url("./assets/fonts/PlaywriteAUQLD-VariableFont.ttf");
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+}
+
+p {
   margin: 0;
 }

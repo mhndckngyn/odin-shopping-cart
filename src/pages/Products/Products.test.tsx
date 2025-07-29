@@ -99,7 +99,7 @@ describe("Product card", () => {
 
     const nameLabel = screen.getByText("Apple");
     const image = screen.getByRole("img");
-    const priceLabel = screen.getByText("2.85");
+    const priceLabel = screen.getByText("$2.85");
     const familyLabel = screen.getByText("Rose Family");
 
     expect(nameLabel).toBeInTheDocument();

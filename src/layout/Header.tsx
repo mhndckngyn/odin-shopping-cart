@@ -1,6 +1,6 @@
 import { NavLink as BaseNavLink } from "react-router";
 import styled from "styled-components";
-import styling from "../constants/styling";
+import { styling } from "../constants/styling";
 import { paths } from "../routes";
 import { ShoppingBasket } from "lucide-react";
 
@@ -8,7 +8,7 @@ function Header() {
   return (
     <NavBar>
       <MainNav>
-        <NavLink to={paths.home}>Odin Store</NavLink>
+        <NavLink to={paths.home}>Fruit Haven</NavLink>
         <NavLink to={paths.products}>Products</NavLink>
       </MainNav>
       <NavLink to={paths.cart}>

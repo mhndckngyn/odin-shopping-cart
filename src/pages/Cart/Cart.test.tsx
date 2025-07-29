@@ -247,7 +247,7 @@ describe("the cart item", () => {
       input,
       deleteBtn,
     ].forEach((element) => expect(element).toBeInTheDocument());
-    expect(priceValue.textContent).toBe(`$${expectedItemPrice}`);
+    expect(priceValue.textContent).toBe(`Item total: $${expectedItemPrice}`);
     expect(input.value).toBe(String(item.quantity));
     expect(updateItemFn).not.toHaveBeenCalled();
     expect(deleteItemFn).not.toHaveBeenCalled();
