@@ -1,0 +1,408 @@
+[
+  {
+    "name": "Apple",
+    "price": 2.85,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin K"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Apples are crisp, juicy fruits. They come in various colors and flavors, ranging from sweet to tart. Apples are often eaten raw, used in baking, and pressed into cider.",
+    "imageSrc": "apple"
+  },
+  {
+    "name": "Apricot",
+    "price": 4.16,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "description": "Apricots are small, orange fruits known for their velvety skin and sweet-tart flavor. They are commonly eaten fresh, dried, or used in jams and desserts.",
+    "imageSrc": "apricot"
+  },
+  {
+    "name": "Avocado",
+    "price": 4.02,
+    "family": "Avocado",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin C"
+    ],
+    "color": [
+      "Green"
+    ],
+    "description": "Avocados are creamy, nutrient-dense fruits. Rich in healthy fats and vitamins, they are often used in salads, spreads, and dips like guacamole.",
+    "imageSrc": "avocado"
+  },
+  {
+    "name": "Banana",
+    "price": 3.51,
+    "family": "Banana",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "description": "Bananas are elongated, sweet fruits. They are a convenient snack, rich in potassium and energy-boosting carbohydrates.",
+    "imageSrc": "banana"
+  },
+  {
+    "name": "Blackberry",
+    "price": 3.12,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "description": "Blackberries are dark purple to black fruits. They have a sweet-tart flavor and are commonly used in desserts, jams, and smoothies.",
+    "imageSrc": "blackberry"
+  },
+  {
+    "name": "Blueberry",
+    "price": 1.19,
+    "family": "Berry",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "description": "Blueberries are small, round fruits known for their sweet flavor and deep blue color. They are rich in antioxidants and widely used in baking and snacks.",
+    "imageSrc": "blueberry"
+  },
+  {
+    "name": "Cherry",
+    "price": 3.81,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin C"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Cherries are small, round fruits with a sweet or tart flavor. They are enjoyed fresh, in pies, or preserved as jams.",
+    "imageSrc": "cherry"
+  },
+  {
+    "name": "Dragon fruit",
+    "price": 4.36,
+    "family": "Others",
+    "vitamin": [
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "color": [
+      "Pink"
+    ],
+    "description": "Dragon fruit, or pitaya, has a striking appearance with a spiky skin and sweet, mildly tangy flesh speckled with black seeds.",
+    "imageSrc": "dragonFruit"
+  },
+  {
+    "name": "Fig",
+    "price": 3.21,
+    "family": "Others",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin K"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "description": "Figs are sweet, pear-shaped fruits with a soft texture and many tiny seeds. They are eaten fresh, dried, or used in baking and preserves.",
+    "imageSrc": "fig"
+  },
+  {
+    "name": "Grape",
+    "price": 3.36,
+    "family": "Grape",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Green"
+    ],
+    "description": "Grapes are small, juicy fruits. Available in various colors, they are eaten fresh, dried into raisins, or used to make juice and wine.",
+    "imageSrc": "grape"
+  },
+  {
+    "name": "Grapefruit",
+    "price": 1.32,
+    "family": "Citrus",
+    "vitamin": [
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "description": "Grapefruits are large, tart citrus fruits. They are enjoyed for their juicy segments and are commonly eaten fresh or juiced.",
+    "imageSrc": "grapefruit"
+  },
+  {
+    "name": "Kiwi",
+    "price": 3.35,
+    "family": "Others",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin K"
+    ],
+    "color": [
+      "Green"
+    ],
+    "description": "Kiwis are small, fuzzy fruits with bright green or golden flesh and a unique sweet-tart flavor.",
+    "imageSrc": "kiwi"
+  },
+  {
+    "name": "Lemon",
+    "price": 1.59,
+    "family": "Citrus",
+    "vitamin": [
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "description": "Lemons are bright yellow citrus fruits known for their sour taste and high vitamin C content. They are widely used in cooking and beverages.",
+    "imageSrc": "lemon"
+  },
+  {
+    "name": "Lime",
+    "price": 4.33,
+    "family": "Citrus",
+    "vitamin": [
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "color": [
+      "Green"
+    ],
+    "description": "Limes are small, green citrus fruits with a tart flavor. They are essential in many dishes and drinks for their zest and acidity.",
+    "imageSrc": "lime"
+  },
+  {
+    "name": "Mango",
+    "price": 4.09,
+    "family": "Tropical",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin C"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "description": "Mangoes are juicy, tropical fruits. Their sweet, rich flesh is enjoyed fresh, in smoothies, or used in cooking and desserts.",
+    "imageSrc": "mango"
+  },
+  {
+    "name": "Mangosteen",
+    "price": 3.9,
+    "family": "Tropical",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Pink"
+    ],
+    "description": "Mangosteens are tropical fruits with a thick purple rind and juicy, white inner segments. They have a unique sweet-tart flavor.",
+    "imageSrc": "mangosteen"
+  },
+  {
+    "name": "Melon",
+    "price": 4.81,
+    "family": "Gourd",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "description": "Melon refers to various fruits including cantaloupe, honeydew, and watermelon. They are known for their sweet, juicy flesh and refreshing taste.",
+    "imageSrc": "melon"
+  },
+  {
+    "name": "Nectarine",
+    "price": 2.44,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin C"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Nectarines are smooth-skinned relatives of peaches. They have a juicy, sweet flavor and are often eaten fresh or used in desserts.",
+    "imageSrc": "nectarine"
+  },
+  {
+    "name": "Orange",
+    "price": 4.98,
+    "family": "Citrus",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "description": "Oranges are citrus fruits valued for their juicy, sweet-tart segments. They are popular in juices, snacks, and desserts.",
+    "imageSrc": "orange"
+  },
+  {
+    "name": "Papaya",
+    "price": 1.8,
+    "family": "Tropical",
+    "vitamin": [
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Papayas are tropical fruits with sweet, orange-red flesh and black seeds. They are often eaten fresh or used in smoothies.",
+    "imageSrc": "papaya"
+  },
+  {
+    "name": "Passion fruit",
+    "price": 4.84,
+    "family": "Tropical",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Purple"
+    ],
+    "description": "Passion fruits are round, tropical fruits with a tough rind and aromatic, tangy pulp. They are used in drinks, desserts, and sauces.",
+    "imageSrc": "passionFruit"
+  },
+  {
+    "name": "Pear",
+    "price": 4.19,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Green"
+    ],
+    "description": "Pears are soft, juicy fruits with a sweet flavor and a grainy texture. They are eaten fresh, poached, or used in desserts.",
+    "imageSrc": "pear"
+  },
+  {
+    "name": "Persimmon",
+    "price": 4.24,
+    "family": "Others",
+    "vitamin": [
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "color": [
+      "Orange"
+    ],
+    "description": "Persimmons are orange-red fruits with a sweet, honey-like flavor. They can be eaten fresh or dried when fully ripe.",
+    "imageSrc": "persimmon"
+  },
+  {
+    "name": "Pineapple",
+    "price": 4.43,
+    "family": "Tropical",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin K"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "description": "Pineapples are tropical fruits with spiky skin and sweet-tart yellow flesh. They are widely used in cooking and drinks.",
+    "imageSrc": "pineapple"
+  },
+  {
+    "name": "Plum",
+    "price": 4.4,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Plums are juicy fruits with smooth skin and a sweet-tart taste. They are eaten fresh, dried as prunes, or used in cooking.",
+    "imageSrc": "plum"
+  },
+  {
+    "name": "Raspberry",
+    "price": 3.97,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin A",
+      "Vitamin C"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Raspberries are small, red fruits with a delicate, sweet-tart flavor. They are commonly used in desserts, jams, and health foods.",
+    "imageSrc": "raspberry"
+  },
+  {
+    "name": "Rose apple",
+    "price": 3.82,
+    "family": "Others",
+    "vitamin": [
+      "Vitamin D",
+      "Vitamin A"
+    ],
+    "color": [
+      "Pink"
+    ],
+    "description": "Rose apples are bell-shaped tropical fruits with a crisp texture and subtle floral taste. They are often eaten fresh.",
+    "imageSrc": "roseApple"
+  },
+  {
+    "name": "Strawberry",
+    "price": 4.29,
+    "family": "Rose",
+    "vitamin": [
+      "Vitamin B",
+      "Vitamin C"
+    ],
+    "color": [
+      "Red"
+    ],
+    "description": "Strawberries are sweet, red berries with a juicy texture and fragrant aroma. They are popular in desserts, salads, and preserves.",
+    "imageSrc": "strawberry"
+  },
+  {
+    "name": "Watermelon",
+    "price": 2.67,
+    "family": "Gourd",
+    "vitamin": [
+      "Vitamin C",
+      "Vitamin E"
+    ],
+    "color": [
+      "Green"
+    ],
+    "description": "Watermelons are large fruits with juicy, sweet, red or pink flesh. They are perfect for hydration and enjoyed fresh during summer.",
+    "imageSrc": "watermelon"
+  }
+]
