@@ -5,7 +5,7 @@ WORKDIR /usr/app
 RUN npm install -g serve
 
 COPY package.json ./
-COPY bun.lock ./
+COPY package-lock.json ./
 
 RUN npm install
 
