@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import API_ENDPOINT from "./api";
 import type { ProductData } from "../constants/types";
 import { ProductContext } from "./ProductContext";
-import axios from "axios";
 import data from "../../api-data.json";
 
 export function ProductContextProvider({
