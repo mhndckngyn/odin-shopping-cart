@@ -8,6 +8,8 @@ function Products() {
   const { products, isLoading, error } = useProducts();
   const { addItem } = useCart();
 
+  console.log(products);
+
   if (isLoading) {
     return (
       <CenterLoader>

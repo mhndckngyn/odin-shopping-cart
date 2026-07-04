@@ -3,6 +3,7 @@ import API_ENDPOINT from "./api";
 import type { ProductData } from "../constants/types";
 import { ProductContext } from "./ProductContext";
 import axios from "axios";
+import data from "../../api-data.json";
 
 export function ProductContextProvider({
   children,
@@ -16,10 +17,12 @@ export function ProductContextProvider({
   useEffect(() => {
     const getProducts = async () => {
       try {
+        /*
         const response = await axios.get(`${API_ENDPOINT}/api/fruits`);
         const data: ProductData[] = response.data;
-        console.log(data)
         setProducts(data);
+        */
+        setProducts(data as ProductData[]);
       } catch {
         setError("Error while fetching products.");
       } finally {
