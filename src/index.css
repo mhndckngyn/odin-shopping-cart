@@ -3,12 +3,22 @@
   src: url("./assets/fonts/PlaywriteAUQLD-VariableFont.ttf");
 }
 
+@font-face {
+  font-family: "National Park";
+  src: url("./assets/fonts/NationalPark-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  font-family: "National Park";
+}
+
+button {
+  font-family: inherit;
 }
 
 p {
