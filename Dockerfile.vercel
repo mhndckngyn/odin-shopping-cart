@@ -1,0 +1,16 @@
+FROM oven/bun:alpine
+
+WORKDIR /usr/app
+
+RUN bun add -g srvx
+
+COPY package.json ./
+COPY bun.lock ./
+
+RUN bun install
+
+COPY . ./
+
+RUN bun run build
+
+CMD ["srvx", "--static", "dist"]
